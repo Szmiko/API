@@ -16,9 +16,11 @@ $(document).ready(function() {
 
   function showCountriesList(resp) {
   	countriesList.empty();
+    if (!resp.length) {
+      alert('Error!');
+    };
   	resp.forEach(function(item) {
-  		$('<li>').text(item.name).appendTo(countriesList);
+  		$('<li>').text(item.name || 'Nie podano danych').appendTo(countriesList); // 
    	});
   };
-
 });
