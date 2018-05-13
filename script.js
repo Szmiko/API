@@ -16,7 +16,7 @@ $(document).ready(function() {
   };
 
   function showCountriesList(resp) {
-  	countriesList.empty();
+    countriesList.empty();
     description.empty();
     if (!resp.length) {
       return;
