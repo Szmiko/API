@@ -1,0 +1,21 @@
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.container h1 {
+	color: green;
+}
+
+.container ul {
+	color: gray;
+	font-weight: bold;
+	background: lightblue;
+}
+
+.container li {
+	padding-top: 10px;
+	color: red;
+	background: lightgreen;
+}
