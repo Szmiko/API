@@ -21,7 +21,7 @@ $(document).ready(function() {
     if (!resp.length) {
       return;
     };
-  	resp.forEach(function(item) {
+    resp.forEach(function(item) {
       $('<div class="col-lg-4">').appendTo(countriesList);
   		$('<ul>').text(item.name || 'Nie podano danych').appendTo(countriesList);
       $('<div class="col-lg-8">').appendTo(countriesList);
