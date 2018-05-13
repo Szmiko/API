@@ -9,10 +9,10 @@ $(document).ready(function() {
     var countryName = $('#country-name').val();
     if (!countryName.length) countryName = 'Poland';
       $.ajax({
-  		  url: url + countryName,
-  		  method: 'GET',
-  		  success: showCountriesList
-  	 });
+        url: url + countryName,
+        method: 'GET',
+        success: showCountriesList
+      });
   };
 
   function showCountriesList(resp) {
