@@ -6,8 +6,8 @@ $(document).ready(function() {
   $('#search').on('click', searchCountries);
 
   function searchCountries() {
-  	var countryName = $('#country-name').val();
-  	if (!countryName.length) countryName = 'Poland';
+    var countryName = $('#country-name').val();
+    if (!countryName.length) countryName = 'Poland';
       $.ajax({
   		  url: url + countryName,
   		  method: 'GET',
