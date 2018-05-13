@@ -33,7 +33,6 @@ $(document).ready(function() {
       $('<li>').text(item.population || 'Nie podano danych').appendTo(description);
       $('<p>').text('Język urzędowy: ').appendTo(description); 
       $('<li>').text(item.languages || 'Nie podano danych').appendTo(description);
-
-   	});
+    });
   };
 });
